@@ -1,4 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+
 idf_component_register(
-    SRCS "BME280_driver/bme280.c"
-    INCLUDE_DIRS "BME280_driver"
+    SRC_DIRS "BME280_driver"
 )
